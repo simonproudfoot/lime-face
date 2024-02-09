@@ -1,0 +1,45 @@
+{
+  "name": "face-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "@vladmandic/face-api": "^1.7.13",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.18.2",
+    "face-api.js": "^0.22.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-base64-image": "^2.0.6",
+    "node-fetch": "^3.3.2",
+    "node-fetch-polyfill": "^2.0.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "urllib": "^3.22.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonproudfoot/face-recongniton.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/simonproudfoot/face-recongniton/issues"
+  },
+  "homepage": "https://github.com/simonproudfoot/face-recongniton#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
