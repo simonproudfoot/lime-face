@@ -1,0 +1,4 @@
+[build]
+  functions = "functions" # Directory of your Netlify functions
+  command = "npm install && npm run build" # Build command
+  publish = "build" # Publish directory
